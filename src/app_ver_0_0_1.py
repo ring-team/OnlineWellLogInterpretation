@@ -91,9 +91,6 @@ canvas_result = st_canvas(
 
 
 
-
-
-
 #Enregistrement des réponses dans un fichier JSON
 
 data = {
@@ -105,3 +102,6 @@ data = {
 
 }
 
+if st.button("Download"):
+    with open(r"C:\Users\e3812u\Documents\Projet_3A\OnlineWellLogInterpretation\Results\test.json", "w") as f:
+        json.dump(data, f)
