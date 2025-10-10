@@ -1,4 +1,4 @@
-[project]
+ma[project]
 name = "onlinewellloginterpretation"
 version = "0.1.0"
 description = "Add your description here"
@@ -6,6 +6,8 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "lasio>=0.32",
+    "matplotlib>=3.10.7",
+    "numpy>=1.26.4",
     "streamlit==1.28.0",
     "streamlit-drawable-canvas>=0.9.3",
 ]
